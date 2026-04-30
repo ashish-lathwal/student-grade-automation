@@ -1,156 +1,163 @@
+
+# Student Grade Management System
+
 ## Sample Output
 
 When you run the script, it generates a report like this:
 To generate your own report, run `python class_report.py`
 
+``` text
 
 ========================================
 Result summary of class1
 ========================================
 
-Total marks = 4763
+Total marks = 4209
 Total students = 100
-Average marks are = 47.63
+Average marks are = 42.09
 
-Top scorers are Ethan Jones, Elijah Lopez with 99 marks
-Bottom scorer is Audrey Edwards with 1 marks
-
-========================================
-A GRADE (80-100)marks - 16 students
-========================================
-
-Student name         | Student marks
----------------------|---------------------
-Ethan Jones_________ | 99
-Elijah Lopez________ | 99
-Paisley Powell______ | 97
-Samantha Morgan_____ | 94
-Emily Thompson______ | 93
-Andrew Cook_________ | 93
-Nova Patterson______ | 93
-Elizabeth Harris____ | 91
-Anna Reed___________ | 91
-Hunter Kelly________ | 90
-David Scott_________ | 89
-Dylan Bailey________ | 87
-Landon Ross_________ | 85
-Maya Bryant_________ | 84
-Aria Murphy_________ | 82
-Kinsley Russell_____ | 82
-
+Top scorers are Sarah Morris, Skylar Gray with 100 marks
+Bottom scorer is Levi Gonzales with 0 marks
 
 ========================================
-B GRADE (60-79)marks - 22 students
+A GRADE (80-100)marks - 9 students
 ========================================
 
 Student name         | Student marks
 ---------------------|---------------------
-Evelyn Jackson______ | 79
-Ezra Washington_____ | 79
-Nicholas Hughes_____ | 77
-Angel Simmons_______ | 77
-Violet Torres_______ | 76
-Eli Long____________ | 76
-Mason Martinez______ | 74
-John Carter_________ | 74
-Zoe Mitchell________ | 73
-Aiden Thomas________ | 72
-Penelope James______ | 72
-Elena Foster________ | 72
-James Moore_________ | 71
-Savannah Sanders____ | 71
-Nathan Turner_______ | 70
-Sarah Morris________ | 70
-Lucy Rivera_________ | 70
-Adam Peterson_______ | 69
-Ella Wright_________ | 66
-Victoria Lewis______ | 65
-Alexander Perez_____ | 64
-Madison Robinson____ | 62
+Sarah Morris________ | 100
+Skylar Gray_________ | 100
+Sofia Clark_________ | 99
+Kinsley Russell_____ | 92
+Elizabeth Harris____ | 90
+Anna Reed___________ | 90
+Lillian Jenkins_____ | 90
+Matthew King________ | 86
+Samuel Nelson_______ | 83
 
 
 ========================================
-C GRADE (40-59)marks - 18 students
+B GRADE (60-79)marks - 19 students
 ========================================
 
 Student name         | Student marks
 ---------------------|---------------------
-Grace Green_________ | 59
-Chloe Allen_________ | 58
-Jack Cox____________ | 58
-Caleb Cooper________ | 57
-Layla Parker________ | 54
-Thomas Wood_________ | 54
-Sophia Miller_______ | 53
-Emma Johnson________ | 51
-Oliver Wilson_______ | 50
-Sofia Clark_________ | 50
-Ryan Campbell_______ | 50
-Julian Collins______ | 49
-Ellie Richardson____ | 49
+Emma Johnson________ | 77
+Evelyn Jackson______ | 77
+Cameron Price_______ | 75
+Madison Robinson____ | 74
+Charlotte Gonzalez__ | 71
+Eleanor Flores______ | 71
+Ryan Campbell_______ | 69
+Caleb Cooper________ | 69
+Abigail Lee_________ | 67
+Liam Smith__________ | 66
+Alexander Perez_____ | 66
+Daniel White________ | 66
+Ellie Richardson____ | 66
+Mia Hernandez_______ | 63
+Emily Thompson______ | 63
+Julian Perry________ | 63
+Victoria Lewis______ | 62
+Luke Ward___________ | 62
+Dylan Bailey________ | 61
+
+
+========================================
+C GRADE (40-59)marks - 26 students
+========================================
+
+Student name         | Student marks
+---------------------|---------------------
+Henry Ramirez_______ | 59
+Lily Adams__________ | 59
+John Carter_________ | 58
+Olivia Garcia_______ | 57
+Zoe Mitchell________ | 56
+Layla Parker________ | 55
+Samantha Morgan_____ | 55
+Isabella Rodriguez__ | 54
+Nathan Watson_______ | 54
+Aubrey Butler_______ | 53
+Lucy Rivera_________ | 52
+Jack Cox____________ | 51
+Violet Torres_______ | 51
+Savannah Sanders____ | 50
 Connor Ramirez______ | 49
-Harper Taylor_______ | 45
-Hannah Phillips_____ | 45
-Isaac Alexander_____ | 44
-Sebastian Young_____ | 42
+Jordan Coleman______ | 49
+Stella Howard_______ | 48
+Ava Brown___________ | 47
+Adam Peterson_______ | 47
+Grace Green_________ | 46
+Claire Stewart______ | 46
+Thomas Wood_________ | 46
+Maya Bryant_________ | 45
+Audrey Edwards______ | 44
+Hannah Phillips_____ | 41
+Caroline Bennett____ | 40
 
 
 ========================================
-D GRADE (20-39)marks - 20 students
-========================================
-
-Student name         | Student marks
----------------------|---------------------
-Nathan Watson_______ | 38
-Noah Williams_______ | 37
-Jackson Walker______ | 35
-Olivia Garcia_______ | 34
-Daniel White________ | 33
-Joseph Baker________ | 33
-Stella Howard_______ | 33
-Jordan Coleman______ | 32
-Mila Henderson______ | 31
-Mia Hernandez_______ | 30
-Caroline Bennett____ | 30
-Henry Ramirez_______ | 28
-Cameron Price_______ | 28
-Natalie Hill________ | 27
-Leah Roberts________ | 26
-Owen Griffin________ | 24
-Abigail Lee_________ | 22
-Ava Brown___________ | 21
-Samuel Nelson_______ | 21
-Charlotte Gonzalez__ | 20
-
-
-========================================
-E GRADE (0-19)marks - 24 students
+D GRADE (20-39)marks - 18 students
 ========================================
 
 Student name         | Student marks
 ---------------------|---------------------
-Liam Smith__________ | 19
-Isaac Sanchez_______ | 17
-Lucas Davis_________ | 16
-Benjamin Martin_____ | 16
-Skylar Gray_________ | 15
-Lillian Jenkins_____ | 14
-Matthew King________ | 13
-Michael Sanchez_____ | 12
-Lily Adams__________ | 12
-Nora Barnes_________ | 12
-Julian Perry________ | 12
-Jonathan Perez______ | 10
-Christian Evans_____ | 10
-Eleanor Flores______ | 10
-Brooklyn Brooks_____ | 8
-Isabella Rodriguez__ | 7
-Amelia Anderson_____ | 6
-Gabriel Bell________ | 6
-Luke Ward___________ | 6
-Joshua Rogers_______ | 5
-Aubrey Butler_______ | 4
-Claire Stewart______ | 2
-Levi Gonzales_______ | 2
-Audrey Edwards______ | 1
+Nicholas Hughes_____ | 38
+Joseph Baker________ | 37
+Gabriel Bell________ | 34
+Aria Murphy_________ | 31
+Ella Wright_________ | 30
+Julian Collins______ | 29
+Mila Henderson______ | 29
+Nora Barnes_________ | 28
+Oliver Wilson_______ | 27
+Elena Foster________ | 27
+Isaac Alexander_____ | 27
+Isaac Sanchez_______ | 25
+Mason Martinez______ | 24
+Michael Sanchez_____ | 24
+Hunter Kelly________ | 22
+Benjamin Martin_____ | 21
+Jonathan Perez______ | 21
+Joshua Rogers_______ | 21
 
+
+========================================
+E GRADE (0-19)marks - 28 students
+========================================
+
+Student name         | Student marks
+---------------------|---------------------
+Jackson Walker______ | 18
+Chloe Allen_________ | 18
+Natalie Hill________ | 18
+Eli Long____________ | 18
+Sophia Miller_______ | 15
+Penelope James______ | 15
+Nova Patterson______ | 15
+Aiden Thomas________ | 13
+James Moore_________ | 13
+Landon Ross_________ | 13
+Ezra Washington_____ | 13
+Noah Williams_______ | 12
+Lucas Davis_________ | 12
+Brooklyn Brooks_____ | 12
+Ethan Jones_________ | 10
+David Scott_________ | 9
+Christian Evans_____ | 9
+Angel Simmons_______ | 8
+Amelia Anderson_____ | 7
+Nathan Turner_______ | 7
+Harper Taylor_______ | 6
+Sebastian Young_____ | 6
+Owen Griffin________ | 6
+Andrew Cook_________ | 4
+Paisley Powell______ | 4
+Leah Roberts________ | 2
+Elijah Lopez________ | 1
+Levi Gonzales_______ | 0
+
+
+
+```
