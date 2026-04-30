@@ -8,6 +8,7 @@ venv/
 
 # Output files (can be regenerated)
 result.txt
+class_info.json
 *.log
 
 # OS files
